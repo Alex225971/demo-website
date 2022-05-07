@@ -4,7 +4,9 @@ import { Welcome } from "./components/Welcome";
 function App() {
   return (
     <div className="App">
-      <Welcome name="Alex" />
+      <div className="bg-dark text-light">
+        <Welcome name="Alex" />
+      </div>
     </div>
   );
 }
