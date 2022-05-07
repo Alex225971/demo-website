@@ -1,0 +1,46 @@
+$primary-color: #2c599a;
+$additional-color: #628ecc;
+$background-color: #f3feff;
+$additional-background-color: #a3bdcc;
+$primary-font-color: #252626;
+$additional-font-color: #707273;
+
+.header {
+  background-color: $background-color;
+  height: 800px;
+}
+
+.header_h1 {
+  color: $primary-font-color;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 125%;
+  text-align: left;
+  & span {
+    color: $primary-color;
+  }
+}
+
+.header_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 160%;
+  color: $additional-font-color;
+  text-align: left;
+}
+
+.header_btn {
+  background-color: $primary-color;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  padding: 15px 35px;
+  &:hover {
+    color: $background-color;
+    background-color: $additional-color;
+  }
+}
