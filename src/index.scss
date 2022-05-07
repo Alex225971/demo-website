@@ -6,6 +6,18 @@
     color: #2c599a !important;
   }
 }
+.service_list {
+  margin-top: 5rem;
+  list-style-type: none !important;
+  .card {
+    width: 15rem;
+  }
+}
+.services_subheading {
+  text-align: center;
+  margin: 0 auto;
+  width: 25rem;
+}
 
 body {
   margin: 0;
