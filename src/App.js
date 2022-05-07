@@ -1,14 +1,10 @@
 import "./App.scss";
-import { Welcome } from "./components/Welcome";
-import { Navigation } from "./components/Navigation/Navigation";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <div className="bg-dark text-light">
-        <Navigation />
-        <Welcome name="Alex" />
-      </div>
+      <Header />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import React from "react";
+import logo from "../../assets/logo.png";
 
 export function Navigation() {
   return (
     <nav className="d-flex navbar navbar-expand-lg navbar-light bg-light text-dark justify-content-between px-5">
       <div className="navbar-nav navbar-logo">
         <li className="navbar-brand">
-          {/* Don't know hwo to insert an image */}
-          <img src={"./logo.png"} alt="Company Logo" />
+          <img src={logo} alt="Company Logo" />
         </li>
       </div>
       <ul className="navbar navbar-nav navbar-expand-lg navbar-light bg-light">
