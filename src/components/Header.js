@@ -6,10 +6,9 @@ import "./Header.scss";
 
 export default function Header() {
   return (
-    <div className=" header">
+    <div className="header d-flex">
       <div className="container">
-        <Navigation></Navigation>
-        <div className="d-flex flex-row justify-content-between align-items-center mt-1">
+        <div className="d-flex flex-row justify-content-between align-items-center mt-1 h-100">
           <div className="d-flex flex-column align-items-start me-3">
             <h1 className="header_h1 mb-3">
               <span>Sit</span> adipisicing nulla magna voluptate{" "}
