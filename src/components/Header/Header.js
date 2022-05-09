@@ -1,7 +1,6 @@
 import React from "react";
-import headerImg from "../assets/industrial-boilers.png";
-import backgroundImg from "../assets/background_img.png";
-import { Navigation } from "./Navigation/Navigation";
+import headerImg from "../../assets/industrial-boilers.png";
+import backgroundImg from "../../assets/background_img.png";
 import "./Header.scss";
 
 export default function Header() {
