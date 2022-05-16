@@ -1,7 +1,12 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 export function Navigation() {
+  let activeStyle = {
+    borderBottom: "solid 1px #2C599A",
+    color: "#2C599A",
+  };
   return (
     <nav className="d-flex navbar navbar-expand-lg navbar-light bg-light text-dark justify-content-between px-5">
       <div className="navbar-nav navbar-logo">
@@ -10,25 +15,41 @@ export function Navigation() {
         </li>
       </div>
       <ul className="navbar navbar-nav navbar-expand-lg navbar-light bg-light">
-        <li className="nav-item mx-3 current">
-          <a className="nav-link active current-link" href="/home">
+        <li className="nav-item mx-3">
+          <NavLink
+            to="/"
+            className="nav-link active"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
             Home
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item mx-3">
-          <a className="nav-link active" href="/about">
+          <NavLink
+            to="/about"
+            className="nav-link active"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
             About
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item mx-3">
-          <a className="nav-link active" href="/gallery">
+          <NavLink
+            to="/gallery"
+            className="nav-link active"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
             Gallery
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item mx-3">
-          <a className="nav-link active" href="/contact">
+          <NavLink
+            to="/contact"
+            className="nav-link active"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
             Contact
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
