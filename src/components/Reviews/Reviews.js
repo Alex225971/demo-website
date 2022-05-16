@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 export default function Reviews() {
   return (
-    <div className="reviews_container">
+    <div className="reviews_container text-center">
       <Swiper
         slidesPerView={1}
         spaceBetween={0}

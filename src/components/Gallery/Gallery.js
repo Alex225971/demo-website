@@ -13,7 +13,7 @@ export default function Gallery() {
   return (
     <div className="gallery_container">
       <div className="container">
-        <h3 className="gallery_heading mt-5">Watch how we work</h3>
+        <h3 className="gallery_heading mt-5 text-center">Watch how we work</h3>
         <h5 className="gallery_subheading mb-3">
           Nisi fugiat et adipisicing laborum officia esse esse. Aliquip labore
           enim est est nostrud in sit. Culpa culpa laborum fugiat elit amet duis

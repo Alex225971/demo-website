@@ -4,7 +4,7 @@ import servicesImg from "./ServicesImgs";
 export function Services() {
   return (
     <div className="services_container my-5">
-      <h3 className="services_heading mt-5">Browse our services</h3>
+      <h3 className="services_heading mt-5 text-center">Browse our services</h3>
       <h5 className="services_subheading text-secondary">
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat.
