@@ -1,0 +1,38 @@
+.reviews_container {
+  height: 500px;
+  margin-bottom: 100px;
+  & .blockquote p {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #4b4c4c;
+  }
+  & .blockquote-footer {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 80%;
+    color: #4b4c4c;
+  }
+}
+
+.reviews_swiper {
+  height: 100%;
+  width: 95%;
+  & .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .swiper-button-prev,
+  & .swiper-button-next {
+    color: #2c599a;
+  }
+
+  & .swiper-pagination-bullet-active {
+    background-color: #2c599a;
+  }
+}
