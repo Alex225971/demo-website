@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
+import "./Navigation.scss";
 
 export function Navigation() {
   let activeStyle = {
@@ -8,13 +9,13 @@ export function Navigation() {
     color: "#2C599A",
   };
   return (
-    <nav className="d-flex navbar navbar-expand-lg navbar-light bg-light text-dark justify-content-between px-5">
+    <nav className="d-flex navbar navbar-expand-lg navbar-light text-dark justify-content-between px-5">
       <div className="navbar-nav navbar-logo">
         <li className="navbar-brand">
           <img src={logo} alt="Company Logo" />
         </li>
       </div>
-      <ul className="navbar navbar-nav navbar-expand-lg navbar-light bg-light">
+      <ul className="navbar navbar-nav navbar-expand-lg navbar-light">
         <li className="nav-item mx-3">
           <NavLink
             to="/"
