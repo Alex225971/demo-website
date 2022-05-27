@@ -6,11 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About/About";
 import { Navigation } from "./components/Navigation/Navigation";
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import { Services } from "./components/Services/Services";
-import Reviews from "./components/Reviews/Reviews";
+import Contact from "./components/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,7 +22,6 @@ root.render(
           element={
             <React.Fragment>
               <Navigation />
-              <Header />
               <Services />
               <About />
               <Footer />
@@ -35,7 +33,6 @@ root.render(
           element={
             <React.Fragment>
               <Navigation />
-              <Header />
               <Gallery />
               <Footer />
             </React.Fragment>
@@ -46,8 +43,7 @@ root.render(
           element={
             <React.Fragment>
               <Navigation />
-              <Header />
-              <Reviews />
+              <Contact />
               <Footer />
             </React.Fragment>
           }

@@ -11,31 +11,55 @@ export function Services() {
       </h5>
 
       <div>
-        <ul className="service_list d-flex flew-row justify-content-center">
-          <li className="mx-3">
-            <div className="card d-flex align-items-center">
-              <img src={servicesImg[0]} className="w-50 m-3" alt="" />
+        <ul className="service_list row justify-content-center">
+          <li className="col-lg-2 col-md-5">
+            <div className="card m-auto my-5 text-center">
+              <img
+                src={servicesImg[0]}
+                className="my-3 m-auto"
+                alt=""
+                height="40%"
+                width="40%"
+              />
               <p className="fs-5">Service 1</p>
               <p>Sed ut perspiciatis unde omnis iste natus error</p>
             </div>
           </li>
-          <li className="mx-3">
-            <div className="card d-flex align-items-center">
-              <img src={servicesImg[1]} className="w-50 m-3" alt="" />
+          <li className="col-lg-2 col-md-5">
+            <div className="card m-auto my-5 text-center">
+              <img
+                src={servicesImg[1]}
+                className="my-3 m-auto"
+                alt=""
+                height="40%"
+                width="40%"
+              />
               <p className="fs-5">Service 1</p>
               <p>Sed ut perspiciatis unde omnis iste natus error</p>
             </div>
           </li>
-          <li className="mx-3">
-            <div className="card d-flex align-items-center">
-              <img src={servicesImg[2]} className="w-50 m-3" alt="" />
+          <li className="col-lg-2 col-md-5">
+            <div className="card m-auto my-5 text-center">
+              <img
+                src={servicesImg[2]}
+                className="my-3 m-auto"
+                alt=""
+                height="40%"
+                width="40%"
+              />
               <p className="fs-5">Service 1</p>
               <p>Sed ut perspiciatis unde omnis iste natus error</p>
             </div>
           </li>
-          <li className="mx-3">
-            <div className="card d-flex align-items-center">
-              <img src={servicesImg[3]} className="w-50 m-3" alt="" />
+          <li className="col-lg-2 col-md-5">
+            <div className="card m-auto my-5 text-center">
+              <img
+                src={servicesImg[3]}
+                className="my-3 m-auto"
+                alt=""
+                height="40%"
+                width="40%"
+              />
               <p className="fs-5">Service 1</p>
               <p>Sed ut perspiciatis unde omnis iste natus error</p>
             </div>

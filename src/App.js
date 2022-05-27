@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import Reviews from "./components/Reviews/Reviews";
-import Contact from "./components/";
+import Contact from "./components/Contact";
 
 function App() {
   return (

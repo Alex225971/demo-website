@@ -18,7 +18,7 @@ export default function About() {
           </p>
           <div className="btn about_btn">Learn More</div>
         </div>
-        <div className="col-md">
+        <div className="col-md text-center">
           <img src={aboutImg} alt="Johnathan Doe" width={"400px"} />
         </div>
       </div>
