@@ -43,4 +43,52 @@ $additional-font-color: #707273;
     color: $background-color;
     background-color: $additional-color;
   }
+  & a {
+    color: #fff;
+    &:hover {
+      color: $background-color;
+      background-color: $additional-color;
+    }
+  }
+}
+.header_container {
+  flex-direction: row;
+}
+
+.header_text {
+  align-items: baseline;
+  justify-content: start;
+}
+
+.header_img {
+  & img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 900px;
+  }
+  .header_container {
+    height: 100%;
+    flex-direction: column-reverse;
+    padding: 50px 0;
+  }
+
+  .header_text {
+    align-items: center;
+    justify-content: center;
+
+    & h1,
+    & p {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_img {
+    background-image: none !important;
+  }
 }

@@ -5,13 +5,14 @@ import galleryImg2 from "../../assets/gallery1.jpg";
 import galleryImg3 from "../../assets/gallery2.jpg";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { NavLink } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function Gallery() {
   return (
-    <div className="gallery_container">
+    <div className="gallery_container d-flex flex-column align-items-center">
       <div className="container">
         <h3 className="gallery_heading mt-5 text-center">Watch how we work</h3>
         <h5 className="gallery_subheading mb-3">
@@ -53,6 +54,11 @@ export default function Gallery() {
           <img src={galleryImg3} alt="" />
         </SwiperSlide>
       </Swiper>
+      <div className="btn gallery_btn mt-4">
+        <NavLink to="/gallery" className="nav-link active ">
+          See more
+        </NavLink>
+      </div>
     </div>
   );
 }

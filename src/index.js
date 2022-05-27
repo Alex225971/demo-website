@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About/About";
 import { Navigation } from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
-import Gallery from "./components/Gallery/Gallery";
+import GalleryFullVersion from "./components/Gallery/GalleryFullVersion";
 import { Services } from "./components/Services/Services";
 import Contact from "./components/Contact";
 
@@ -33,7 +33,7 @@ root.render(
           element={
             <React.Fragment>
               <Navigation />
-              <Gallery />
+              <GalleryFullVersion />
               <Footer />
             </React.Fragment>
           }

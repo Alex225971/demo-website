@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
 import aboutImg from "../../assets/CEO.png";
+import { NavLink } from "react-router-dom";
 
 export default function About() {
   return (
@@ -16,7 +17,11 @@ export default function About() {
             sit nisi. Minim et quis veniam reprehenderit consectetur amet
             occaecat Lorem in quis ipsum exercitation voluptate Lorem.
           </p>
-          <div className="btn about_btn">Learn More</div>
+          <div className="btn about_btn">
+            <NavLink to="/about" className="nav-link active">
+              Learn More
+            </NavLink>
+          </div>
         </div>
         <div className="col-md text-center">
           <img src={aboutImg} alt="Johnathan Doe" width={"400px"} />
