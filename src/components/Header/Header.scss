@@ -60,11 +60,11 @@ $additional-font-color: #707273;
   justify-content: start;
 }
 
-.header_img {
-  & img {
-    width: 100%;
-  }
-}
+// .header_img {
+//   & img {
+//     width: 100%;
+//   }
+// }
 
 @media screen and (max-width: 1200px) {
   .header {
@@ -88,6 +88,9 @@ $additional-font-color: #707273;
 }
 
 @media screen and (max-width: 768px) {
+  .header_img img {
+    width: 100%;
+  }
   .header_img {
     background-image: none !important;
   }
