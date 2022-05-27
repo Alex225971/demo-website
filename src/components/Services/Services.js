@@ -11,7 +11,7 @@ export function Services() {
       </h5>
 
       <div>
-        <ul className="service_list row justify-content-center">
+        <ul className="service_list row justify-content-center w-100">
           <li className="col-lg-2 col-md-5">
             <div className="card m-auto my-5 text-center">
               <img
