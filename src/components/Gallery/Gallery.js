@@ -24,8 +24,6 @@ export default function Gallery() {
         </h5>
       </div>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={0}
         centeredSlides={true}
         loop={true}
         pagination={{
@@ -34,6 +32,16 @@ export default function Gallery() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+        }}
       >
         <SwiperSlide>
           <img src={galleryImg1} alt="" />
