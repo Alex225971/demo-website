@@ -20,32 +20,38 @@ root.render(
         <Route
           path="/about"
           element={
-            <React.Fragment>
+            <div class="page__container">
               <Navigation />
-              <Services />
-              <About />
+              <div class="body__flex-grow">
+                <Services />
+                <About />
+              </div>
               <Footer />
-            </React.Fragment>
+            </div>
           }
         />
         <Route
           path="/gallery"
           element={
-            <React.Fragment>
+            <div class="page__container">
               <Navigation />
-              <GalleryFullVersion />
+              <div class="body__flex-grow">
+                <GalleryFullVersion/>
+              </div>
               <Footer />
-            </React.Fragment>
+            </div>
           }
         />
         <Route
           path="/contact"
           element={
-            <React.Fragment>
+            <div class="page__container">
               <Navigation />
-              <Contact />
+              <div class="body__flex-grow">
+                <Contact/>
+              </div>
               <Footer />
-            </React.Fragment>
+            </div>
           }
         />
       </Routes>
